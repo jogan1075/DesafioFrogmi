@@ -33,7 +33,7 @@ class MainVM @Inject constructor(
 
     override fun handleEvents(intent: MainContract.Event) {
         when (intent) {
-            is MainContract.Event.GetListPokemon -> {
+            is MainContract.Event.GetListStores -> {
                 showNextPage(intent.pageNext, intent.pagePrev)
             }
         }

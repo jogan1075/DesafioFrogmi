@@ -7,7 +7,7 @@ import com.jmc.desafiofrogmi.utils.ViewState
 class MainContract {
 
     sealed class Event : ViewEvent {
-        data class GetListPokemon(val pageNext: Int,val pagePrev: Int?) : Event()
+        data class GetListStores(val pageNext: Int,val pagePrev: Int?) : Event()
     }
 
     data class State(

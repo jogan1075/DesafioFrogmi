@@ -88,7 +88,7 @@ fun RenderScreen(
                 }
                 .collect {
                     onEventSent(
-                        MainContract.Event.GetListPokemon(
+                        MainContract.Event.GetListStores(
                             stateMain.positionNext,
                             stateMain.positionOld
                         )
